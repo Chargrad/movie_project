@@ -1,5 +1,9 @@
+def hello_world(city):
+    print(f'Hello User from {city}. Welcome to Movie Space!')
+
+
 def main():
-    print("Welcome to Movie Space!")
+    hello_world('California')
 
 
 main()
